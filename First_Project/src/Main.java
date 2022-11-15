@@ -28,6 +28,7 @@ public class Main {
 		System.out.printf("Measure with three decimal places: %.3f %n", measure);
 		Locale.setDefault(Locale.US);
 		System.out.printf("Measure with three decimal places: %.3f %n", measure);
+		
 	}
 
 }
