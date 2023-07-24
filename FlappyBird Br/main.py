@@ -3,7 +3,7 @@ import os
 import random
 
 TELA_LARGURA = 550
-TELA_ALTURA = 900
+TELA_ALTURA = 830
 
 IMAGEM_CANO = pygame.transform.scale2x(pygame.image.load(os.path.join('imgs', 'pipes.png')))
 IMAGEM_CHAO = pygame.transform.scale2x(pygame.image.load(os.path.join('imgs', 'base.png')))
@@ -94,7 +94,7 @@ class Passaro:
 
 
 class Cano:
-    DISTANCIA = 200
+    DISTANCIA = 180
     VELOCIDADE = 5
 
     def __init__(self, x):
